@@ -27,6 +27,8 @@
 }
 .box {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 160px;
   width: 160px;
   background-color: #1f3540;
@@ -36,6 +38,7 @@
 }
 .box img {
   margin: 30px;
+  max-width: 100%;
 }
 .reset {
   background-color: #1f3540;
@@ -107,4 +110,3 @@
     font-size: 28px;
   }
 }
-
