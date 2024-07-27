@@ -29,6 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   height: 160px;
   width: 160px;
   background-color: #1f3540;
@@ -37,7 +38,6 @@
   cursor: pointer;
 }
 .box img {
-  margin: 30px;
   max-width: 100%;
 }
 .reset {
@@ -67,9 +67,6 @@
     width: 90px;
     height: 90px;
   }
-  .box img {
-    margin: 10px;
-  }
   .reset {
     height: 45px;
     width: 150px;
@@ -84,9 +81,6 @@
     width: 140px;
     height: 140px;
   }
-  .box img {
-    margin: 15px;
-  }
   .reset {
     height: 60px;
     width: 200px;
@@ -100,9 +94,6 @@
   .box {
     width: 150px;
     height: 150px;
-  }
-  .box img {
-    margin: 25px;
   }
   .reset {
     height: 65px;
